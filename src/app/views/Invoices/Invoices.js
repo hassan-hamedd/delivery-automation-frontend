@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 
 import {
     IconButton,
@@ -15,9 +15,9 @@ import {
     InputBase,
     TextField,
     Select
-} from '@mui/material'
+} from '@mui/material';
 
-import { Box, styled } from '@mui/system'
+import { Box, styled } from '@mui/system';
 
 import 'react-accessible-shuttle/css/shuttle.css'
 import TransferList from './TransferList'

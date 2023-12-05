@@ -7,7 +7,6 @@ import Box from '@mui/material/Box';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
-
   return (
     <div
       role="tabpanel"
@@ -23,7 +22,7 @@ function TabPanel(props) {
       )}
     </div>
   );
-}
+};
 
 TabPanel.propTypes = {
   children: PropTypes.node,
