@@ -14,7 +14,9 @@ import {
     Checkbox,
     InputBase,
     TextField,
-    Select
+    Select,
+    Menu,
+    MenuItem
 } from '@mui/material';
 
 import { Box, styled } from '@mui/system';
@@ -141,8 +143,15 @@ const Invoices = () => {
         return productCode;
       }
       
-
-
+        const [menuAnchorEl, setMenuAnchorEl] = React.useState(null);
+        const menuOpen = Boolean(menuAnchorEl);
+        const handleMenuClick = (event) => {
+            setMenuAnchorEl(event.currentTarget);
+            console.log("Menu Clicked")
+        };
+        const handleCloseMenu = () => {
+            setMenuAnchorEl(null);
+        };
     
 
     useEffect(() => {
@@ -159,7 +168,18 @@ const Invoices = () => {
 
             console.log("INVOICES: ", inv);
 
-            setInvoices(inv)
+            setInvoices([...inv,
+                {
+                    _id: 9179897913701081301,
+                    ...inv[1],
+                    invoiceNumber: `${inv[1].invoiceNumber}a`
+                },
+                {
+                    _id: 9179813701081301,
+                    ...inv[1],
+                    invoiceNumber: `${inv[1].invoiceNumber}b`
+                },
+            ]);
             dispatch({ type: "GET_INVOICES", payload:inv });
         }
         getInvoices()
@@ -218,7 +238,7 @@ const Invoices = () => {
                         <TableCell colSpan={6}>Address</TableCell>
                         <TableCell colSpan={4}>Contact</TableCell>
                         <TableCell colSpan={2}>Date</TableCell>
-                        <TableCell colSpan={2}>Split</TableCell>
+                        <TableCell colSpan={2}>Split/ Join</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
@@ -313,13 +333,26 @@ const Invoices = () => {
                                 <TableCell colSpan={2}>
                                     <IconButton
                                         onClick={(e) => {
-                                            handleClick(e, subscriber._id, subscriber)
-                                            setInvoice(subscriber);
-                                        }
-                                        }
+                                            handleMenuClick(e);
+                                        }}
                                     >
                                         <Icon>edit</Icon>
                                     </IconButton>
+                                    <Menu
+                                        id="basic-menu"
+                                        anchorEl={menuAnchorEl}
+                                        open={menuOpen}
+                                        onClose={handleCloseMenu}
+                                        MenuListProps={{
+                                        'aria-labelledby': 'basic-button',
+                                        }}
+                                    >
+                                        <MenuItem onClick={(e) => {
+                                            handleClick(e, subscriber._id, subscriber)
+                                            setInvoice(subscriber);
+                                        }}>Split</MenuItem>
+                                        <MenuItem onClick={handleCloseMenu}>Join</MenuItem>
+                                    </Menu>
 
 
 

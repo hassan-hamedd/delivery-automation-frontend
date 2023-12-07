@@ -386,7 +386,7 @@ const Asssignment: React.VFC = () => {
             plateNumber: vehicleNumber
         })
         .then((res) => {
-            console.log("RES:", res.data.car);
+            console.log("Vehicle ID Found", res);
             setVehiculeID(res.data.car._id);
         })
     }, [vehicleNumber])      
@@ -742,17 +742,17 @@ const Asssignment: React.VFC = () => {
                                 marginLeft: '15px'
                             }}
                             onClick={() => {
-                                if(vehicleID.length === 0) {
+                                if(vehicleNumber.length === 0) {
                                     return alert("You need to select a vehicle prior to creating a delivery")
                                 }
-                                if(driverID.length === 0) {
+                                if(driverName.length === 0) {
                                     return alert("You need to select a driver prior to creating a delivery")
                                 }
                                 if(confirmedInvoices.length === 0) {
                                     return alert("You need to select the invoices for the delivery prior to creating one")
                                 }
                                 setClickedOnMap(false);
-                                createDelivery(vehicleID, driverID, confirmedInvoices);
+                                createDelivery(91979, 82492, confirmedInvoices);
                             }}
                         >
                             Confirm Delivery
