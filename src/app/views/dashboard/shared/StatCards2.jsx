@@ -88,7 +88,7 @@ const StatCards2 = () => {
                         <H3 textcolor={'#08ad6c'}>Active Drivers</H3>
                     </ContentBox>
                     <ContentBox sx={{ pt: 2 }}>
-                        <H1>107</H1>
+                        <H1>0</H1>
                         {/* <IconBox sx={{ background: 'rgba(9, 182, 109, 0.15)' }}>
                             <Icon className="icon">expand_less</Icon>
                         </IconBox> */}
@@ -108,7 +108,7 @@ const StatCards2 = () => {
                         <H3 textcolor={textError}>Active Vehicles</H3>
                     </ContentBox>
                     <ContentBox sx={{ pt: 2 }}>
-                        <H1>59</H1>
+                        <H1>0</H1>
                         {/* <IconBox sx={{ background: bgError }}>
                             <Icon className="icon">expand_less</Icon>
                         </IconBox> */}

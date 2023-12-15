@@ -10,13 +10,6 @@ import Paper from '@mui/material/Paper'
 import axiosInstance from '../../../axios'
 import { Autocomplete, Stack, TextField } from '@mui/material'
 import Loading from 'src/app/components/MatxLoading/MatxLoading'
-// function not(a, b) {
-//     return a.filter((value) => b.indexOf(value) === -1)
-// }
-
-// function intersection(a, b) {
-//     return a.filter((value) => b.indexOf(value) !== -1)
-// }
 
 export default function TransferList({ setConfirmedInvoices, setInvoices }) {
     // const [checked, setChecked] = React.useState([])

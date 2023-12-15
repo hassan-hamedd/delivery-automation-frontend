@@ -1,4 +1,4 @@
-import { Autocomplete, TextField } from '@mui/material'
+import { Autocomplete, LinearProgress, TextField } from '@mui/material'
 import React, { useState, useEffect } from 'react'
 import {
     IconButton,
@@ -17,6 +17,7 @@ import {
 
 import { Box, styled } from '@mui/system'
 import axiosInstance from '../../../axios'
+import Loading from 'src/app/components/MatxLoading/MatxLoading'
 
 function ImportantDeliveries() {
     const StyledTable = styled(Table)(({ theme }) => ({
@@ -71,7 +72,7 @@ function ImportantDeliveries() {
 
             const inv = res.data.invoices.filter(invoice => `${invoice.invoiceNumber}` === "" || `${invoice.invoiceNumber}` === "No Invoice")
 
-            setReserved(inv);
+            setInvoices(inv);
         }
         getInvoices()
     }, [])
@@ -79,7 +80,10 @@ function ImportantDeliveries() {
     // Popover State
     const [anchorEl, setAnchorEl] = React.useState(null)
     const [popover, setPopover] = React.useState(null)
-    const [status, setStatus] = React.useState('')
+    const [status, setStatus] = React.useState('');
+    const [isLoading, setIsLoading] = React.useState(true);
+    const [creatingExtraDelivery, setCreatingExtraDelivery] = React.useState(false);
+
     const handleChangeDeliveryStatus = (event) => {
         setStatus(event.target.value)
     }
@@ -135,14 +139,73 @@ function ImportantDeliveries() {
             const res = await axiosInstance.get('/invoice/all?limit=1000')
 
             setInvoices(res.data.invoices)
-        }
+        };
+
+        const getExtraDeliveries = async () => {
+            try {
+                setIsLoading(true);
+
+                const res = await fetch("https://delivery-automation-backend.vercel.app/api/v1/deliveries/get-extra-deliveries");
+
+                if(!res.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                const result = await res.json();
+
+                console.log("These are the extra deliveries: ", result.extraDeliveries);
+                setReserved([...result.extraDeliveries]);
+            } catch (err) {
+                throw new Error(err)
+            } finally {
+                setIsLoading(false);
+            }
+        };
 
         getDrivers()
         getCars()
         getInvoices()
-    }, [submit, reserved])
+        getExtraDeliveries();
+    }, []);
+
+    const createExtraDelivery = async () => {
+        try {
+            setCreatingExtraDelivery(true);
+
+            const res = await fetch("https://delivery-automation-backend.vercel.app/api/v1/deliveries/create-extra-delivery", {
+                method: "POST",
+                headers: {
+                    "Content-type": "application/json"
+                },
+                body: JSON.stringify({
+                    car: inputValue,
+                    driver: inputValue2,
+                    invoiceNumber: inputValue3
+                })
+            });
+
+            if (!res.ok) {
+                throw new Error('Network response was not ok');
+            }
+        
+            const result = await res.json();
+
+            setReserved(prevDeliveries => [...prevDeliveries, result.delivery]);
+        } catch (err) {
+            throw new Error(err) 
+        } finally {
+            setCreatingExtraDelivery(false);
+        }
+    };
+
     return (
         <div>
+            {creatingExtraDelivery ? (
+                <LinearProgress sx={{
+                    width: '100%',
+                    color: 'blue'
+                }} />
+            ) : null}
             <h1 style={{ textAlign: 'center', paddingBottom: '2vh', paddingTop:"2vh" }}>
                 Extra Deliveries
             </h1>
@@ -164,6 +227,7 @@ function ImportantDeliveries() {
                     id="combo-box-demo"
                     options={["No Invoice", ...invoices.map((d) => d.invoiceNumber)]}
                     defaultValue="No Invoice"
+                    value={inputValue3}
                     sx={{ flex: '.2', marginRight: '20px' }}
                     renderInput={(params) => (
                         <TextField {...params} label="Invoices" />
@@ -180,9 +244,10 @@ function ImportantDeliveries() {
                     renderInput={(params) => (
                         <TextField {...params} label="Driver" />
                     )}
+                    value={inputValue2}
                     onInputChange={(event, newInputValue) => {
                         setInputValue2(newInputValue);
-                      }}
+                    }}
                 />
                 <Autocomplete
                     disablePortal
@@ -192,6 +257,7 @@ function ImportantDeliveries() {
                     renderInput={(params) => (
                         <TextField {...params} label="Vehicle" />
                     )}
+                    value={inputValue}
                     onInputChange={(event, newInputValue) => {
                         setInputValue(newInputValue);
                       }}
@@ -200,70 +266,85 @@ function ImportantDeliveries() {
                 <Button
                     variant="contained"
                     sx={{ flex: '.1', marginRight: '20px', height:"50px" }}
-                    onClick={(e) => onReserve(inputValue3, inputValue2, inputValue, 'reserved')}
+                    onClick={createExtraDelivery}
                 >
                     Reserve
                 </Button>
             </div>
-            <div>
-                {' '}
-                <StyledTable>
-                    <TableHead>
-                        <TableRow>
-                        <TableCell align="center">Invoice Number</TableCell>
-                            <TableCell align="center">Driver Name</TableCell>
-                            <TableCell align="center">Vehicle Code</TableCell>
-                            <TableCell align="center">Status</TableCell>
-                            <TableCell align="center">Action</TableCell>
-                        </TableRow>
-                    </TableHead>
-                    <TableBody>
-                        {reserved.map((i, index) => (
-                            <TableRow key={index}>
-                                 <TableCell align="center">
-                                    {i.invoiceNumber}
-                                </TableCell>
-                                
-                                <TableCell align="center">
-                                    {i.driverName}
-                                </TableCell>
-                                <TableCell align="center">
-                                    {i.vehicleCode}
-                                </TableCell>
 
-                                <TableCell align="center">
-                                    {i.status === 'Not Available' ? (
-                                        <Small bgcolor={bgSecondary}>
-                                            {i.status}
-                                        </Small>
-                                    ) : i.status === 'Available' ? (
-                                        <Small bgcolor={bgPrimary}>
-                                            {i.status}
-                                        </Small>
-                                    ) : (
-                                        <Small bgcolor={bgError}>
-                                            {i.status}
-                                        </Small>
-                                    )}
-                                </TableCell>
-
-                                <TableCell align="center">
-                                    <IconButton
-                                        onClick={(e) =>
-                                            setReserved((prevState) => (
-                                                 [...prevState.slice(0,index), ...prevState.slice(index+1)]
-                                              ))
-                                        }
-                                    >
-                                        <Icon color="">close</Icon>
-                                    </IconButton>
-                                 
-                                </TableCell>
+            {isLoading ? (
+                <div
+                    style={{
+                        width: '100%',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        marginTop: '40px'
+                    }}
+                >
+                    <Loading />
+                    <p style={{ fontSize: 14, fontWeight: 400 }}>Loading extra deliveries...</p>
+                </div>
+            ) : (
+                <div>
+                    {' '}
+                    <StyledTable>
+                        <TableHead>
+                            <TableRow>
+                            <TableCell align="center">Invoice Number</TableCell>
+                                <TableCell align="center">Driver Name</TableCell>
+                                <TableCell align="center">Vehicle Code</TableCell>
+                                <TableCell align="center">Status</TableCell>
+                                <TableCell align="center">Action</TableCell>
                             </TableRow>
-                        ))}
-                    </TableBody>
-                </StyledTable>
-            </div>
+                        </TableHead>
+                        <TableBody>
+                            {reserved.map((i, index) => (
+                                <TableRow key={index}>
+                                    <TableCell align="center">
+                                        {i.invoiceNumber}
+                                    </TableCell>
+                                    
+                                    <TableCell align="center">
+                                        {i.driver}
+                                    </TableCell>
+                                    <TableCell align="center">
+                                        {i.car}
+                                    </TableCell>
+
+                                    <TableCell align="center">
+                                        {i.deliveryStatus === 'Not Available' ? (
+                                            <Small bgcolor={bgSecondary}>
+                                                {i.deliveryStatus}
+                                            </Small>
+                                        ) : i.deliveryStatus === 'Available' ? (
+                                            <Small bgcolor={bgPrimary}>
+                                                {i.deliveryStatus}
+                                            </Small>
+                                        ) : (
+                                            <Small bgcolor={bgError}>
+                                                {i.deliveryStatus}
+                                            </Small>
+                                        )}
+                                    </TableCell>
+
+                                    <TableCell align="center">
+                                        <IconButton
+                                            onClick={(e) =>
+                                                console.log("Clicked")
+                                            }
+                                        >
+                                            <Icon color="">close</Icon>
+                                        </IconButton>
+                                    
+                                    </TableCell>
+                                </TableRow>
+                            ))}
+                        </TableBody>
+                    </StyledTable>
+                </div>
+            )}
         </div>
     )
 }

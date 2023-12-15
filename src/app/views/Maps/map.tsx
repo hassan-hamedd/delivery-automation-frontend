@@ -34,6 +34,7 @@ import {
     Popover,
     Select,
     TextField,
+    Typography,
 } from '@mui/material'
 import AdapterDateFns from '@mui/lab/AdapterDateFns'
 import { DemoContainer } from '@mui/x-date-pickers/internals/demo';
@@ -100,6 +101,31 @@ const Asssignment: React.VFC = () => {
     const [driverID, setDriverID] = React.useState('');
     const [vehicleNumber, setVehiculeNumber] = React.useState('');
     const [vehicleID, setVehiculeID] = React.useState('');
+
+    const [driversData, setDriversData] = React.useState<any>([]);
+    const [vehiclesData, setVehiclesData] = React.useState<any>([]);
+
+    React.useEffect(() => {
+        const getDeliveryData = async () => {
+            try {
+                const res = await fetch('https://delivery-automation-backend.vercel.app/api/v1/deliveries/get-data-for-delivery');
+
+                if (!res.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const result = await res.json();
+
+                console.log("Delivery Info response: ", result);
+
+                setDriversData(result.drivers);
+                setVehiclesData(result.cars);
+            } catch (err) {
+                console.error("Couldn't fetch the data for delivery", err);
+            }
+        };
+
+        getDeliveryData();
+    }, []);
 
 
     //Select cars State
@@ -432,7 +458,10 @@ const Asssignment: React.VFC = () => {
         setProductsWeight(totalProductsWeight);
         console.log("TotalProductsVolume:", totalProductsVolume);
         setProductsVolume(totalProductsVolume);
-    }, [confirmedInvoices])
+    }, [confirmedInvoices]);
+
+    const filteredDriversData = driversData.filter((driver: any) => driver.driverName);
+    const filteredVehiclesData = vehiclesData.filter((vehicle: any) => vehicle.vehiculeCode);
 
 
     const form = (
@@ -459,305 +488,290 @@ const Asssignment: React.VFC = () => {
                     <TransferList setConfirmedInvoices={setConfirmedInvoices} setInvoices={setInvoices} />
                 </div>
                 {confirmedInvoices.length !== 0 && (
-                    <Grid
-                        container
-                        alignItems="center"
-                        justifyContent="center"
-                    >
-                        <Grid item width="100%">
-                            <div
-                                style={{
-                                    width: '100%',
-                                    position: 'relative',
-                                    display: 'flex',
-                                    flexDirection: 'column',
-                                    alignItems: 'center',
-                                    justifyContent: 'center'
-                                }}
+                    <>
+                        {filteredDriversData.length === 0 || filteredVehiclesData.length === 0 ? (
+                            <Typography
+                                width="100%"
+                                fontSize={25}
+                                fontWeight={300}
+                                color="#11142D"
+                                textAlign="center"
+                                mt={4}
+                                mb={4}
+                                fontFamily="Poppins, sans-serif"
                             >
-                                <h3 style={{ fontWeight: 400, textAlign: 'left', width: '100%' }}>
-                                    Confirm the Driver and Vehicle to be assigned to this
-                                    delivery:
-                                </h3>
-                            </div>
-                            <div
-                                style={{
-                                    width: '100%',
-                                    display: 'flex',
-                                    flexDirection: 'row',
-                                    alignItems: 'center',
-                                    justifyContent: 'space-between',
-                                }}
-                            >
-                                <div
-                                    style={{
-                                        width: '50%',
-                                        display: 'flex',
-                                        flexDirection: 'column',
-                                        alignItems: 'center',
-                                        justifyContent: 'center'
-                                    }}
-                                >
-
-                                    <h3>Confirm Driver</h3>
-                                    <FormControl sx={{ marginTop: 1, width: '90%' }}>
-                                        <Select
-                                            native
-                                            defaultValue="Ilyas Ahmad"
-                                            id="grouped-native-select"
-                                            onChange={(e) => {
-                                                console.log("Selected driver is: ", e.target.value);
-                                                setDriverName(e.target.value);
-                                            }}
-                                        >
-            
-                                            {matchedDrivers.map((driver, index) => {
-                                                return (
-                                                    <option key={index} value={driver}>
-                                                        {driver}
-                                                    </option>
-                                                );
-                                            })
-                                            }
-                                        </Select>
-                                    </FormControl>
-                                </div>
-
-                                <div
-                                    style={{
-                                        width: '50%',
-                                        display: 'flex',
-                                        flexDirection: 'column',
-                                        alignItems: 'center',
-                                        justifyContent: 'center'
-                                    }}
-                                >
-                                    <h3>Confirm Vehicle</h3>
-                                    <FormControl sx={{ marginTop: 1, width: '90%' }}>
-                                        <Select
-                                            native
-                                            defaultValue="Ford"
-                                            id="grouped-native-select"
-                                            onChange={(e) => {
-                                                console.log("Selected vehicle is: ", e.target.value);
-                                                setVehiculeNumber(e.target.value);
-                                            }}
-                                        >
-                                            {matchedVehicles.map((vehicle, index) => {
-                                                return (
-                                                    <option key={index} value={vehicle}>
-                                                        {vehicle}
-                                                    </option>
-                                                );
-                                            })
-                                            }
-                                        </Select>
-                                    </FormControl>
-                                </div>
-                            </div>
-                        </Grid>
-                        <div
-                            style={{
-                                position: 'relative',
-                                display: 'flex',
-                                width: '100%',
-                                flexDirection: 'column',
-                                alignItems: 'center',
-                                justifyContent: 'center'
-                            }}
-                        >
-                            <h3 style={{ fontWeight: 'normal',width: '100%', textAlign: 'left', marginTop: '40px' }}>
-                                Confirm the Date and Time of this delivery:
-                            </h3>
-
-                            <div
-                                style={{
-                                    width: '100%',
-                                    display: 'flex',
-                                    flexDirection: 'row',
-                                    alignItems: 'center',
-                                    justifyContent: 'space-between',
-                                }}
-                            >
-                                <LocalizationProvider dateAdapter={AdapterDayjs}>
-                                    <div
-                                        style={{
-                                            width: '50%',
-                                            display: 'flex',
-                                            flexDirection: 'column',
-                                            alignItems: 'center',
-                                            justifyContent: 'center'
-                                        }}
-                                    >
-                                        <h3 style={{ fontSize: 16, fontWeight: 500, textAlign: 'center', marginTop: 0 }}>
-                                            Delivery Date
-                                        </h3>
-                                        <DatePicker
-                                            sx={{ width: '90%' }}
-                                            label="Confirm delivery date"
-                                            value={selectedDate}
-                                            onChange={handleDateChange}
-                                        />
-                                    </div>
-                                </LocalizationProvider>
-
-                                <LocalizationProvider dateAdapter={AdapterDayjs}>
-                                    <div
-                                        style={{
-                                            width: '50%',
-                                            display: 'flex',
-                                            flexDirection: 'column',
-                                            alignItems: 'center',
-                                            justifyContent: 'center'
-                                        }}
-                                    >
-                                        <h3 style={{ fontSize: 16, fontWeight: 500, textAlign: 'center', marginTop: 0 }}>
-                                            Delivery Time
-                                        </h3>
-                                        <TimePicker
-                                            sx={{ width: '90%' }}
-                                            label="Confirm delivery time"
-                                            value={selectedDate}
-                                            onChange={handleDateChange}
-                                        />
-                                    </div>
-                                </LocalizationProvider>
-                            </div>
-                        </div>
-                        {/* <LocalizationProvider dateAdapter={AdapterDateFns}>
+                                There are no drivers or vehicles in the database. 
+                                <span style={{ fontSize: 15, display: 'block' }}>
+                                    Please make sure that there is at least 1 complete dataset for a driver and a vehicle in order to create a delivery.
+                                </span>
+                            </Typography>
+                        ) :(
                             <Grid
                                 container
-                                sx={{ width: '100%', paddingBottom: '4vh', paddingTop:"4vh" }}
+                                alignItems="center"
+                                justifyContent="center"
                             >
-                                <Grid item xs={6}>
-                                    <DatePicker
-                                        value={selectedDate}
-                                        onChange={handleDateChange}
-                                        renderInput={(props) => (
-                                            <TextField
-                                                {...props}
-                                                variant="standard"
-                                                id="mui-pickers-date"
-                                                label="Delivery Date"
-                                            />
-                                        )}
-                                    />
+                                <Grid item width="100%">
+                                    <div
+                                        style={{
+                                            width: '100%',
+                                            position: 'relative',
+                                            display: 'flex',
+                                            flexDirection: 'column',
+                                            alignItems: 'center',
+                                            justifyContent: 'center'
+                                        }}
+                                    >
+                                        <h3 style={{ fontWeight: 400, textAlign: 'left', width: '100%' }}>
+                                            Confirm the Driver and Vehicle to be assigned to this
+                                            delivery:
+                                        </h3>
+                                    </div>
+                                    <div
+                                        style={{
+                                            width: '100%',
+                                            display: 'flex',
+                                            flexDirection: 'row',
+                                            alignItems: 'center',
+                                            justifyContent: 'space-between',
+                                        }}
+                                    >
+                                        <div
+                                            style={{
+                                                width: '50%',
+                                                display: 'flex',
+                                                flexDirection: 'column',
+                                                alignItems: 'center',
+                                                justifyContent: 'center'
+                                            }}
+                                        >
+        
+                                            <h3>Confirm Driver</h3>
+                                            <FormControl sx={{ marginTop: 1, width: '90%' }}>
+                                                <Select
+                                                    native
+                                                    defaultValue="Ilyas Ahmad"
+                                                    id="grouped-native-select"
+                                                    onChange={(e) => {
+                                                        console.log("Selected driver is: ", e.target.value);
+                                                        setDriverName(e.target.value);
+                                                    }}
+                                                >
+                    
+                                                    {matchedDrivers.map((driver, index) => {
+                                                        return (
+                                                            <option key={index} value={driver}>
+                                                                {driver}
+                                                            </option>
+                                                        );
+                                                    })
+                                                    }
+                                                </Select>
+                                            </FormControl>
+                                        </div>
+        
+                                        <div
+                                            style={{
+                                                width: '50%',
+                                                display: 'flex',
+                                                flexDirection: 'column',
+                                                alignItems: 'center',
+                                                justifyContent: 'center'
+                                            }}
+                                        >
+                                            <h3>Confirm Vehicle</h3>
+                                            <FormControl sx={{ marginTop: 1, width: '90%' }}>
+                                                <Select
+                                                    native
+                                                    defaultValue="Ford"
+                                                    id="grouped-native-select"
+                                                    onChange={(e) => {
+                                                        console.log("Selected vehicle is: ", e.target.value);
+                                                        setVehiculeNumber(e.target.value);
+                                                    }}
+                                                >
+                                                    {matchedVehicles.map((vehicle, index) => {
+                                                        return (
+                                                            <option key={index} value={vehicle}>
+                                                                {vehicle}
+                                                            </option>
+                                                        );
+                                                    })
+                                                    }
+                                                </Select>
+                                            </FormControl>
+                                        </div>
+                                    </div>
                                 </Grid>
-                                <Grid item xs={6}>
-                                    <TimePicker
-                                        value={selectedDate}
-                                        onChange={handleDateChange}
-                                        renderInput={(props) => (
-                                            <TextField
-                                                {...props}
-                                                variant="standard"
-                                                id="mui-pickers-date"
-                                                label="Delivery Time"
-                                            />
-                                        )}
-                                    />
-                                </Grid>
-                            </Grid>
-                        </LocalizationProvider> */}
-                        
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <Grid item style={{ marginTop: '30px', width: '100%' }}>
-                            
-                            <h3 style={{ fontWeight: 'normal' }}>
-                                {confirmedInvoices.length > 0 ? "Confirm the order of this delivery:" : "Please confirm selected invoices to view delivery's invoice order and routes" }
-                            </h3>
-                            {confirmedInvoices.length > 0 && (
-                                <h3>View Route</h3>
-                            )}
-                            {confirmedInvoices.length > 0 && (
-                                <DraggableList width={500} height={50} rowSize={1}>
-                                    {confirmedInvoices.map((invoice, index) => ({
-                                        id: index + 1,
-                                        customer: invoice.customerName,
-                                        address: invoice.deliveryAddress,
-                                        invoiceNumber: invoice.invoiceNumber,
-                                    })).map((item, index) => (
-                                        <li style={{ cursor: 'pointer' }} key={index}>
+                                <div
+                                    style={{
+                                        position: 'relative',
+                                        display: 'flex',
+                                        width: '100%',
+                                        flexDirection: 'column',
+                                        alignItems: 'center',
+                                        justifyContent: 'center'
+                                    }}
+                                >
+                                    <h3 style={{ fontWeight: 'normal',width: '100%', textAlign: 'left', marginTop: '40px' }}>
+                                        Confirm the Date and Time of this delivery:
+                                    </h3>
+        
+                                    <div
+                                        style={{
+                                            width: '100%',
+                                            display: 'flex',
+                                            flexDirection: 'row',
+                                            alignItems: 'center',
+                                            justifyContent: 'space-between',
+                                        }}
+                                    >
+                                        <LocalizationProvider dateAdapter={AdapterDayjs}>
+                                            <div
+                                                style={{
+                                                    width: '50%',
+                                                    display: 'flex',
+                                                    flexDirection: 'column',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'center'
+                                                }}
+                                            >
+                                                <h3 style={{ fontSize: 16, fontWeight: 500, textAlign: 'center', marginTop: 0 }}>
+                                                    Delivery Date
+                                                </h3>
+                                                <DatePicker
+                                                    sx={{ width: '90%' }}
+                                                    label="Confirm delivery date"
+                                                    value={selectedDate}
+                                                    onChange={handleDateChange}
+                                                />
+                                            </div>
+                                        </LocalizationProvider>
+        
+                                        <LocalizationProvider dateAdapter={AdapterDayjs}>
+                                            <div
+                                                style={{
+                                                    width: '50%',
+                                                    display: 'flex',
+                                                    flexDirection: 'column',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'center'
+                                                }}
+                                            >
+                                                <h3 style={{ fontSize: 16, fontWeight: 500, textAlign: 'center', marginTop: 0 }}>
+                                                    Delivery Time
+                                                </h3>
+                                                <TimePicker
+                                                    sx={{ width: '90%' }}
+                                                    label="Confirm delivery time"
+                                                    value={selectedDate}
+                                                    onChange={handleDateChange}
+                                                />
+                                            </div>
+                                        </LocalizationProvider>
+                                    </div>
+                                </div>
+                                
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <Grid item style={{ marginTop: '30px', width: '100%' }}>
                                     
-                                        
-                                            {item.address}
-
-                                            <span style={{marginRight:"10px"}}></span>
+                                    <h3 style={{ fontWeight: 'normal' }}>
+                                        {confirmedInvoices.length > 0 ? "Confirm the order of this delivery:" : "Please confirm selected invoices to view delivery's invoice order and routes" }
+                                    </h3>
+                                    {confirmedInvoices.length > 0 && (
+                                        <h3>View Route</h3>
+                                    )}
+                                    {confirmedInvoices.length > 0 && (
+                                        <DraggableList width={500} height={50} rowSize={1}>
+                                            {confirmedInvoices.map((invoice, index) => ({
+                                                id: index + 1,
+                                                customer: invoice.customerName,
+                                                address: invoice.deliveryAddress,
+                                                invoiceNumber: invoice.invoiceNumber,
+                                            })).map((item, index) => (
+                                                <li style={{ cursor: 'pointer' }} key={index}>
                                             
-
-                                            {item.invoiceNumber}
-                                            <span style={{marginRight:"10px"}}></span>
-                                            
-                                            {item.customer}
-                                        </li>
-                                    ))}
-                                </DraggableList>
-                            )}
-                        </Grid>
-                        <Grid item xs={12} style={{ padding: '0vh 0 0vh 0vh', marginTop: '25px', marginBottom: '30px' }}>
-                        {locationRoutes.length > 0 && clickedOnMap ? (
-                            locationRoutes.map((location): any => (
-                                <p><b>From {location.start_address}, to {location.end_address}:</b> Estimated distance: {location.distance}/ Estimated time: {location.duration}</p>
-                            ))
-                        ) : null}
-                        </Grid>
-                        <Button
-                            disabled={confirmedInvoices.length === 0}
-                            size="small"
-                            variant="contained"
-                            style={{
-                                color: 'white',
-                                fontWeight: 'bolder',
-                                border: 'none',
-                            }}
-                            onClick={(e) => {
-                                console.log(`car: ${vehicleID},\ndriver: ${driverID} invoices: [${confirmedInvoices.map((invoice) => `${invoice._id},\n`)}]`);
-                                if(confirmedInvoices.length === 0) {
-                                    return alert("You need to select the invoices for the delivery prior to viewing routes")
-                                }
-                                setClickedOnMap(true);
-                                let element: HTMLElement =
-                                    document.getElementsByClassName(
-                                        'button button-primary'
-                                    )[0] as HTMLElement
-                                element.click()
-                                console.log('clicked')
-                                window.scrollBy(0, -2000)
-                            }}
-                        >
-                            View Map Routes
-                        </Button>
-                        
-                        <Button
-                            disabled={!clickedOnMap}
-                            size="small"
-                            variant="contained"
-                            style={{
-                                color: 'white',
-                                fontWeight: 'bolder',
-                                border: 'none',
-                                marginLeft: '15px'
-                            }}
-                            onClick={() => {
-                                if(vehicleNumber.length === 0) {
-                                    return alert("You need to select a vehicle prior to creating a delivery")
-                                }
-                                if(driverName.length === 0) {
-                                    return alert("You need to select a driver prior to creating a delivery")
-                                }
-                                if(confirmedInvoices.length === 0) {
-                                    return alert("You need to select the invoices for the delivery prior to creating one")
-                                }
-                                setClickedOnMap(false);
-                                createDelivery(91979, 82492, confirmedInvoices);
-                            }}
-                        >
-                            Confirm Delivery
-                        </Button>
-                    </Grid>
+                                                
+                                                    {item.address}
+        
+                                                    <span style={{marginRight:"10px"}}></span>
+                                                    
+        
+                                                    {item.invoiceNumber}
+                                                    <span style={{marginRight:"10px"}}></span>
+                                                    
+                                                    {item.customer}
+                                                </li>
+                                            ))}
+                                        </DraggableList>
+                                    )}
+                                </Grid>
+                                <Grid item xs={12} style={{ padding: '0vh 0 0vh 0vh', marginTop: '25px', marginBottom: '30px' }}>
+                                {locationRoutes.length > 0 && clickedOnMap ? (
+                                    locationRoutes.map((location): any => (
+                                        <p><b>From {location.start_address}, to {location.end_address}:</b> Estimated distance: {location.distance}/ Estimated time: {location.duration}</p>
+                                    ))
+                                ) : null}
+                                </Grid>
+                                <Button
+                                    disabled={confirmedInvoices.length === 0}
+                                    size="small"
+                                    variant="contained"
+                                    style={{
+                                        color: 'white',
+                                        fontWeight: 'bolder',
+                                        border: 'none',
+                                    }}
+                                    onClick={(e) => {
+                                        console.log(`car: ${vehicleID},\ndriver: ${driverID} invoices: [${confirmedInvoices.map((invoice) => `${invoice._id},\n`)}]`);
+                                        if(confirmedInvoices.length === 0) {
+                                            return alert("You need to select the invoices for the delivery prior to viewing routes")
+                                        }
+                                        setClickedOnMap(true);
+                                        let element: HTMLElement =
+                                            document.getElementsByClassName(
+                                                'button button-primary'
+                                            )[0] as HTMLElement
+                                        element.click()
+                                        console.log('clicked')
+                                        window.scrollBy(0, -2000)
+                                    }}
+                                >
+                                    View Map Routes
+                                </Button>
+                                
+                                <Button
+                                    disabled={!clickedOnMap}
+                                    size="small"
+                                    variant="contained"
+                                    style={{
+                                        color: 'white',
+                                        fontWeight: 'bolder',
+                                        border: 'none',
+                                        marginLeft: '15px'
+                                    }}
+                                    onClick={() => {
+                                        if(vehicleNumber.length === 0) {
+                                            return alert("You need to select a vehicle prior to creating a delivery")
+                                        }
+                                        if(driverName.length === 0) {
+                                            return alert("You need to select a driver prior to creating a delivery")
+                                        }
+                                        if(confirmedInvoices.length === 0) {
+                                            return alert("You need to select the invoices for the delivery prior to creating one")
+                                        }
+                                        setClickedOnMap(false);
+                                        createDelivery(91979, 82492, confirmedInvoices);
+                                    }}
+                                >
+                                    Confirm Delivery
+                                </Button>
+                            </Grid>
+                        )}
+                    </>
                 )}
             </div>
         </div>

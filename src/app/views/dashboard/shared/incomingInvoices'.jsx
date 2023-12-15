@@ -123,7 +123,7 @@ const IncomingInvoices = () => {
                         fontWeight: 'normal',
                         fontStyle: 'italic',
                     }}
-                    onClick={(e) => navigate('/deliveries')}
+                    onClick={(e) => navigate('/invoices')}
                 >
                     See All
                 </Title>
