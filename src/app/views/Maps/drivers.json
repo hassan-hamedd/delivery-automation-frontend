@@ -1,0 +1,3359 @@
+[{
+    "_id": {
+      "$oid": "65642c3ead81dff698f65875"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:42:22.053Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:42:22.053Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642c6915627d218ee0b9e4"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:43:05.283Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:43:05.283Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642c7e15627d218ee0b9e8"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:43:26.415Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:43:26.415Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642c7e15627d218ee0b9ea"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:43:26.940Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:43:26.940Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642c9415627d218ee0b9ee"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:43:48.119Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:43:48.119Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642c9415627d218ee0b9f0"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:43:48.826Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:43:48.826Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642ca915627d218ee0ba04"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:44:09.965Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:44:09.965Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642caa15627d218ee0ba06"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:44:10.478Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:44:10.478Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642cbf15627d218ee0ba10"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:44:31.578Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:44:31.578Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642cd415627d218ee0ba16"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:44:52.704Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:44:52.704Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642ce915627d218ee0ba1c"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:45:13.811Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:45:13.811Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642cea15627d218ee0ba1e"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:45:14.326Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:45:14.326Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642cff15627d218ee0ba22"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:45:35.451Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:45:35.451Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642d1415627d218ee0ba26"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:45:56.554Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:45:56.554Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642d3e15627d218ee0ba2c"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:46:38.285Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:46:38.285Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642d3e15627d218ee0ba2e"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:46:38.803Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:46:38.803Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642d5315627d218ee0ba32"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:46:59.947Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:46:59.947Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642d5415627d218ee0ba34"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:47:00.481Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:47:00.481Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642d7e15627d218ee0ba3a"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:47:42.222Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:47:42.222Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642d7f15627d218ee0ba3c"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:47:43.297Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:47:43.297Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642d7f15627d218ee0ba3e"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:47:43.803Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:47:43.803Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642d9415627d218ee0ba42"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:48:04.936Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:48:04.936Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642d9515627d218ee0ba44"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:48:05.486Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:48:05.486Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642daa15627d218ee0ba48"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:48:26.646Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:48:26.646Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642dab15627d218ee0ba4a"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:48:27.155Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:48:27.155Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642e140ec096fd8bae7604"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:50:12.252Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:50:12.252Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642e3e0ec096fd8bae7623"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:50:54.224Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:50:54.224Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642e3e0ec096fd8bae7625"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:50:54.773Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:50:54.773Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642e530ec096fd8bae7629"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:51:15.883Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:51:15.883Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642e540ec096fd8bae762b"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:51:16.406Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:51:16.406Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65642e690ec096fd8bae7632"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:51:37.543Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:51:37.543Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65643058b1cc0abdcba28e30"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T05:59:52.914Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T05:59:52.914Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564306eb1cc0abdcba28e34"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:00:14.065Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:00:14.065Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65643083b1cc0abdcba28e38"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:00:35.233Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:00:35.233Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564365234dc1511f0094269"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:25:22.540Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:25:22.540Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564365334dc1511f009426b"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:25:23.081Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:25:23.081Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564365334dc1511f009426d"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:25:23.600Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:25:23.600Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564366834dc1511f0094271"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:25:44.714Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:25:44.714Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564366934dc1511f0094273"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:25:45.227Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:25:45.227Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564367e34dc1511f0094277"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:26:06.362Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:26:06.362Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564369334dc1511f009427b"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:26:27.553Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:26:27.553Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564369434dc1511f009427d"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:26:28.081Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:26:28.081Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656436a934dc1511f0094281"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:26:49.273Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:26:49.273Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656436a934dc1511f0094283"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:26:49.787Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:26:49.787Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656436be34dc1511f009428f"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:27:10.979Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:27:10.979Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656436bf34dc1511f0094291"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:27:11.494Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:27:11.494Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656436c034dc1511f0094295"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:27:12.044Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:27:12.044Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564373dcda3c24a01bee510"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:29:17.502Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:29:17.502Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564373ecda3c24a01bee512"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:29:18.059Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:29:18.059Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65643753cda3c24a01bee518"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:29:39.866Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:29:39.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65643754cda3c24a01bee51a"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:29:40.381Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:29:40.381Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65643754cda3c24a01bee51c"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:29:40.901Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:29:40.901Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564376acda3c24a01bee520"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:30:02.058Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:30:02.058Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564376acda3c24a01bee522"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:30:02.618Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:30:02.618Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564376bcda3c24a01bee524"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:30:03.543Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:30:03.543Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65643781cda3c24a01bee52a"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:30:25.214Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:30:25.214Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65643781cda3c24a01bee52c"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:30:25.761Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:30:25.761Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65643797cda3c24a01bee532"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:30:47.588Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:30:47.588Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65643798cda3c24a01bee534"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:30:48.106Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:30:48.106Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65643798cda3c24a01bee536"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:30:48.657Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:30:48.657Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656437add78ed870e3caf4e6"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:31:09.979Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:31:09.979Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656437aed78ed870e3caf4e8"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:31:10.526Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:31:10.526Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656437afd78ed870e3caf4ea"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:31:11.070Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:31:11.070Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656437c5d78ed870e3caf4f0"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:31:33.008Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:31:33.008Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656437c5d78ed870e3caf4f2"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:31:33.556Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:31:33.556Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656437c6d78ed870e3caf4f4"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:31:34.105Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:31:34.105Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656437db34dc1511f00942b3"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:31:55.306Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:31:55.306Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656437db34dc1511f00942b5"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:31:55.821Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:31:55.821Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656437dc34dc1511f00942b7"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:31:56.381Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:31:56.381Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656437f234dc1511f00942c1"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:32:18.162Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:32:18.162Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656437f234dc1511f00942c3"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:32:18.709Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:32:18.709Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656437f334dc1511f00942c5"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:32:19.417Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:32:19.417Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564380834dc1511f00942c9"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:32:40.682Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:32:40.682Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564380934dc1511f00942cb"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:32:41.188Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:32:41.188Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564380934dc1511f00942cd"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:32:41.754Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:32:41.754Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564381e34dc1511f00942d1"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:33:02.888Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:33:02.888Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564381f34dc1511f00942d3"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:33:03.405Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:33:03.405Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564381f34dc1511f00942d5"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:33:03.940Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:33:03.940Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564382034dc1511f00942d7"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:33:04.464Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:33:04.464Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564383634dc1511f00942dd"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:33:26.152Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:33:26.152Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564383634dc1511f00942df"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:33:26.688Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:33:26.688Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564384c34dc1511f00942e5"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:33:48.335Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:33:48.335Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564384c34dc1511f00942e7"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:33:48.877Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:33:48.877Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564386234dc1511f00942eb"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:34:10.638Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:34:10.638Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564386334dc1511f00942ed"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:34:11.214Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:34:11.214Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564386334dc1511f00942ef"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:34:11.738Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:34:11.738Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564387834dc1511f00942f3"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:34:32.882Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:34:32.882Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564387934dc1511f00942f5"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:34:33.425Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:34:33.425Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564388e34dc1511f00942fb"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:34:54.539Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:34:54.539Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564388f34dc1511f00942fd"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:34:55.096Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:34:55.096Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6564388f34dc1511f00942ff"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:34:55.626Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:34:55.626Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656438a434dc1511f0094303"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:35:16.855Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:35:16.855Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "656438a534dc1511f0094305"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-11-27T06:35:17.368Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-27T06:35:17.368Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65716ca7779f1c04aa9922c4"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-07T06:56:39.460Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-07T06:56:39.460Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6572a72b4f9ea578153961a2"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Not Available",
+    "createdAt": {
+      "$date": "2023-12-08T05:18:35.782Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-16T12:05:22.088Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65815bdd6cbfeb5d2f804185"
+    },
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-19T09:01:17.238Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-19T09:01:17.238Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583c6c6678b88d72b3f32fe"
+    },
+    "sn": "1",
+    "driverCode": "0020103",
+    "driverName": "AJAB KHAN MOHD KARIM",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:01:58.817Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:01:58.817Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce68423f4e8b9ed63a24"
+    },
+    "sn": "2",
+    "driverCode": "0020077",
+    "driverName": "MALIK PARVEZ SHAHZAD",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:32.817Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:32.817Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce6b423f4e8b9ed63a26"
+    },
+    "sn": "3",
+    "driverCode": "0020171",
+    "driverName": "IBRAHIM KHAN AMAN ULLAH",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:35.342Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:35.342Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce6b1d020dec5bcbecaf"
+    },
+    "sn": "4",
+    "driverCode": "0020176",
+    "driverName": "AMER NAZEER BIN NAZEER AHMED",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:35.972Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:35.972Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce6d1d020dec5bcbecb1"
+    },
+    "sn": "5",
+    "driverCode": "0020208",
+    "driverName": "ROSHAN ALI AKBAR KHAN",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:37.585Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:37.585Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce6e808d7456abf31e12"
+    },
+    "sn": "6",
+    "driverCode": "0020254",
+    "driverName": "AMANAT ALI ABDUL HAMEED",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:38.163Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:38.163Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce6e6199836bc38c47a1"
+    },
+    "sn": "7",
+    "driverCode": "0020305",
+    "driverName": "SHER DAD KHAN JALANDAR",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:38.752Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:38.752Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce6f808d7456abf31e16"
+    },
+    "sn": "8",
+    "driverCode": "0020308",
+    "driverName": "MOHAMMAD IQBAL AZIZUR REHMAN",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:39.383Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:39.383Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce6f6199836bc38c47a5"
+    },
+    "sn": "9",
+    "driverCode": "0020315",
+    "driverName": "AZMAT KHAN SHEZAD",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:39.941Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:39.941Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce701d020dec5bcbecba"
+    },
+    "sn": "10",
+    "driverCode": "0020364",
+    "driverName": "LIAKAT ALI MUSA KHAN",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:40.486Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:40.486Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce711d020dec5bcbecbc"
+    },
+    "sn": "11",
+    "driverCode": "0020378",
+    "driverName": "MUHAMMAD DOST ABDUL MASTAN",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:41.028Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:41.028Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce711d020dec5bcbecbe"
+    },
+    "sn": "12",
+    "driverCode": "0020381",
+    "driverName": "NISAR ALI MUHAMMAD RAFIQ KHAN",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:41.561Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:41.561Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce726199836bc38c47ab"
+    },
+    "sn": "13",
+    "driverCode": "0020384",
+    "driverName": "WAZIR ZADA MAIN GUL ZADA BACHA",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:42.134Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:42.134Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce726199836bc38c47ad"
+    },
+    "sn": "14",
+    "driverCode": "0020416",
+    "driverName": "GULZAR ALI AKBAR KHAN",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:42.651Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:42.651Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce731d020dec5bcbecc2"
+    },
+    "sn": "15",
+    "driverCode": "0020422",
+    "driverName": "MUHAMMAD AWALIAZ KHAN MUMTAZ KHAN",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:43.191Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:43.191Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce736199836bc38c47b1"
+    },
+    "sn": "16",
+    "driverCode": "0020433",
+    "driverName": "SHAHID ASLAM MUHAMMAD ASLAM",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:43.720Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:43.720Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce746199836bc38c47b3"
+    },
+    "sn": "17",
+    "driverCode": "0020442",
+    "driverName": "NOOR SHAH WALIYAT SHAHID",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:44.230Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:44.230Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce741d020dec5bcbecc6"
+    },
+    "sn": "18",
+    "driverCode": "0020452",
+    "driverName": "ISMAIL KHAN FAZAL MEHMOOD",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:44.770Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:44.770Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce75808d7456abf31e2e"
+    },
+    "sn": "19",
+    "driverCode": "0020456",
+    "driverName": "MUHAMMAD ALAM DAWOOD KHAN",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:45.331Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:45.331Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce75808d7456abf31e30"
+    },
+    "sn": "20",
+    "driverCode": "0020457",
+    "driverName": "FAZAL MABOOD MOHSIN",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:45.890Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:45.890Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce766199836bc38c47b9"
+    },
+    "sn": "21",
+    "driverCode": "0020498",
+    "driverName": "ALAUDEEN HASAN JAAN",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:46.414Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:46.414Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce761d020dec5bcbeccd"
+    },
+    "sn": "22",
+    "driverCode": "0020555",
+    "driverName": "JAGSIR SINGH MEJOR SINGH",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:46.977Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:46.977Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce776199836bc38c47bb"
+    },
+    "sn": "23",
+    "driverCode": "0020561",
+    "driverName": "VIVEK KUMAR JOGINDER SINGH",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:47.513Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:47.513Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce7bdab0e75521a9de62"
+    },
+    "sn": "25",
+    "driverCode": "0020704",
+    "driverName": "IBAD ULLAH KHAN NAEEM KHAN",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:51.397Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:51.397Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce7ddab0e75521a9de64"
+    },
+    "sn": "26",
+    "driverCode": "0020708",
+    "driverName": "MUHAMMAD BASHIR MUHAMMAD NAZIR",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:53.955Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:53.955Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce7edab0e75521a9de66"
+    },
+    "sn": "27",
+    "driverCode": "0020709",
+    "driverName": "SANDIP SINGH MANGAL SINGH",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:54.486Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:54.486Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce7f31808ae9564927b0"
+    },
+    "sn": "28",
+    "driverCode": "0020713",
+    "driverName": "SALMAN ULLAH IHSAN ULLAH",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:55.108Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:55.108Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce7f31808ae9564927b2"
+    },
+    "sn": "29",
+    "driverCode": "0020749",
+    "driverName": "ALTAF HUSSAIN MUHAMMAD ALI",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:55.700Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:55.700Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce80f5dc83461e0d522c"
+    },
+    "sn": "30",
+    "driverCode": "0020750",
+    "driverName": "MUHAMMAD ATIF ABDUL KHALIQ",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:56.300Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:56.300Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce8031808ae9564927b6"
+    },
+    "sn": "31",
+    "driverCode": "0020758",
+    "driverName": "QASIM NASERALDIN SAYMOUHA",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:56.858Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:56.858Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce8131808ae9564927b8"
+    },
+    "sn": "32",
+    "driverCode": "0020761",
+    "driverName": "NAEEM JAN MUHIB JAN",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:57.412Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:57.412Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce82dab0e75521a9de71"
+    },
+    "sn": "33",
+    "driverCode": "0020764",
+    "driverName": "GUL DAD KHAN JALANDAR KHAN.",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:58.105Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:58.105Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce82dab0e75521a9de73"
+    },
+    "sn": "34",
+    "driverCode": "0020783",
+    "driverName": "KHAN BACHA RAHAM BACHA.",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:58.652Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:58.652Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce835beeb3f185e9517b"
+    },
+    "sn": "35",
+    "driverCode": "0020851",
+    "driverName": "SANA ULLAH MUHAMMAD SADIQ.",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:59.364Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:59.364Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce8331808ae9564927c0"
+    },
+    "sn": "36",
+    "driverCode": "0020855",
+    "driverName": "KHAISTA ZAMAN RAHMAN SADIQ",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:34:59.891Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:34:59.891Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce84f5dc83461e0d523f"
+    },
+    "sn": "37",
+    "driverCode": "0020856",
+    "driverName": "SHIV LAL BALRAM",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:35:00.442Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:35:00.442Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce85f5dc83461e0d5241"
+    },
+    "sn": "38",
+    "driverCode": "0020857",
+    "driverName": "ROOH UL AMIN SAID SALAH UD DIN",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:35:01.003Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:35:01.003Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce85f5dc83461e0d5243"
+    },
+    "sn": "39",
+    "driverCode": "0020863",
+    "driverName": "DAVINDER SINGH GURBAX SINGH",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:35:01.543Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:35:01.543Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce8631808ae9564927c6"
+    },
+    "sn": "40",
+    "driverCode": "0020867",
+    "driverName": "YASIR AMIN NIAMAT KHAN",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:35:02.249Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:35:02.249Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce865beeb3f185e95185"
+    },
+    "sn": "41",
+    "driverCode": "0020875",
+    "driverName": "SUKHWINDER SINGH CHANNE BALWANT SINGH",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:35:02.793Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:35:02.793Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce8731808ae9564927ca"
+    },
+    "sn": "42",
+    "driverCode": "0020876",
+    "driverName": "RAJPREET SINGH GURMUKH SINGH",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:35:03.370Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:35:03.370Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce875beeb3f185e95189"
+    },
+    "sn": "43",
+    "driverCode": "0020879",
+    "driverName": "DEEPAK RAKESH KUMAR",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:35:03.936Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:35:03.936Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce88f5dc83461e0d5245"
+    },
+    "sn": "44",
+    "driverCode": "0030913",
+    "driverName": "FARMAN ULLAH IHSAN ULLAH",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:35:04.462Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:35:04.462Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce8831808ae9564927d0"
+    },
+    "sn": "45",
+    "driverCode": "0030998",
+    "driverName": "KHAN NAWAZ KHAISTA MIR",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:35:04.984Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:35:04.984Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce89f5dc83461e0d5247"
+    },
+    "sn": "46",
+    "driverCode": "0031295",
+    "driverName": "ATTA ULLAH KHAN RAHIM KHAN",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:35:05.519Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:35:05.519Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce8a5beeb3f185e9518f"
+    },
+    "sn": "47",
+    "driverCode": "0032914",
+    "driverName": "HASHMAT ALI SHAH SYED GUL MUHAMMAD SHAH",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:35:06.059Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:35:06.059Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce8af5dc83461e0d524b"
+    },
+    "sn": "48",
+    "driverCode": "0034768",
+    "driverName": "IHSAN ALI ABDUR RAUF",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:35:06.593Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:35:06.593Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583ce8bf5dc83461e0d524d"
+    },
+    "sn": "49",
+    "driverCode": "0034784",
+    "driverName": "MANDEEP SINGH RAM PRAKASH",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:35:07.216Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:35:07.216Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583cec1ec90ef766ddd3ac1"
+    },
+    "sn": "1",
+    "driverCode": "0020074",
+    "driverName": "AYAD SALMAN AL SHOFI",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:36:01.522Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:36:01.522Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583d0c319a3446049365914"
+    },
+    "sn": "1",
+    "driverCode": "0035074",
+    "driverName": "FIAZ MIRAN BASHIR AHMED",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:44:35.033Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:44:35.033Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583d0d819a3446049365918"
+    },
+    "sn": "1",
+    "driverCode": "0020631",
+    "driverName": "FAHAD BASHIR MUHAMMAD BASHIR",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T05:44:56.292Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T05:44:56.292Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7a55eb07603a5e95cd0"
+    },
+    "sn": "1",
+    "driverCode": "0020074",
+    "driverName": "AYAD SALMAN AL SHOFI",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e322e1632d018fd22a1c"
+    },
+    "car3": {
+      "$oid": "6583e2fbe1632d018fd22992"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:13.913Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:13.913Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7a65eb07603a5e95cd2"
+    },
+    "sn": "2",
+    "driverCode": "0020077",
+    "driverName": "MALIK PARVEZ SHAHZAD",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e319e1632d018fd229fa"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:14.569Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:14.569Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7a75eb07603a5e95cd4"
+    },
+    "sn": "3",
+    "driverCode": "0020171",
+    "driverName": "IBRAHIM KHAN AMAN ULLAH",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e31fe1632d018fd22a10"
+    },
+    "car2": {
+      "$oid": "6583e30be1632d018fd229c8"
+    },
+    "car3": {
+      "$oid": "6583e311e1632d018fd229de"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:15.129Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:15.129Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7a75eb07603a5e95cd6"
+    },
+    "sn": "4",
+    "driverCode": "0020176",
+    "driverName": "AMER NAZEER BIN NAZEER AHMED",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e30de1632d018fd229d0"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:15.668Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:15.668Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7a85eb07603a5e95cd8"
+    },
+    "sn": "5",
+    "driverCode": "0020208",
+    "driverName": "ROSHAN ALI AKBAR KHAN",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e325e1632d018fd22a24"
+    },
+    "car3": {
+      "$oid": "6583e2f6e1632d018fd22984"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:16.240Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:16.240Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7a85eb07603a5e95cda"
+    },
+    "sn": "6",
+    "driverCode": "0020254",
+    "driverName": "AMANAT ALI ABDUL HAMEED",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e30de1632d018fd229ce"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:16.758Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:16.758Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7a95eb07603a5e95cdc"
+    },
+    "sn": "7",
+    "driverCode": "0020305",
+    "driverName": "SHER DAD KHAN JALANDAR",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e323e1632d018fd22a20"
+    },
+    "car2": {
+      "$oid": "6583e31be1632d018fd22a02"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:17.371Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:17.371Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7a95eb07603a5e95cde"
+    },
+    "sn": "8",
+    "driverCode": "0020308",
+    "driverName": "MOHAMMAD IQBAL AZIZUR REHMAN",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car3": {
+      "$oid": "6583e30be1632d018fd229c8"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:17.891Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:17.891Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7aa5eb07603a5e95ce0"
+    },
+    "sn": "9",
+    "driverCode": "0020315",
+    "driverName": "AZMAT KHAN SHEZAD",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e314e1632d018fd229e8"
+    },
+    "car3": {
+      "$oid": "6583e308e1632d018fd229bc"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:18.420Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:18.420Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7ab5eb07603a5e95ce2"
+    },
+    "sn": "10",
+    "driverCode": "0020364",
+    "driverName": "LIAKAT ALI MUSA KHAN",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e312e1632d018fd229e2"
+    },
+    "car2": {
+      "$oid": "6583e30ae1632d018fd229c4"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:19.015Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:19.015Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7ab5eb07603a5e95ce4"
+    },
+    "sn": "11",
+    "driverCode": "0020378",
+    "driverName": "MUHAMMAD DOST ABDUL MASTAN",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e31be1632d018fd22a02"
+    },
+    "car3": {
+      "$oid": "6583e313e1632d018fd229e6"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:19.548Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:19.548Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7ac5eb07603a5e95ce6"
+    },
+    "sn": "12",
+    "driverCode": "0020381",
+    "driverName": "NISAR ALI MUHAMMAD RAFIQ KHAN",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e30ae1632d018fd229c4"
+    },
+    "car2": {
+      "$oid": "6583e302e1632d018fd229ac"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:20.104Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:20.104Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7ac5eb07603a5e95ce8"
+    },
+    "sn": "13",
+    "driverCode": "0020384",
+    "driverName": "WAZIR ZADA MAIN GUL ZADA BACHA",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e311e1632d018fd229dc"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:20.698Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:20.698Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7ad5eb07603a5e95cea"
+    },
+    "sn": "14",
+    "driverCode": "0020416",
+    "driverName": "GULZAR ALI AKBAR KHAN",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e319e1632d018fd229f8"
+    },
+    "car2": {
+      "$oid": "6583e316e1632d018fd229ee"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:21.291Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:21.291Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7ad5eb07603a5e95cec"
+    },
+    "sn": "15",
+    "driverCode": "0020422",
+    "driverName": "MUHAMMAD AWALIAZ KHAN MUMTAZ KHAN",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e300e1632d018fd229a4"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:21.833Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:21.833Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7ae5eb07603a5e95cee"
+    },
+    "sn": "16",
+    "driverCode": "0020433",
+    "driverName": "SHAHID ASLAM MUHAMMAD ASLAM",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e316e1632d018fd229f0"
+    },
+    "car2": {
+      "$oid": "6583e308e1632d018fd229bc"
+    },
+    "car3": {
+      "$oid": "6583e313e1632d018fd229e4"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:22.381Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:22.381Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7ae5eb07603a5e95cf0"
+    },
+    "sn": "17",
+    "driverCode": "0020442",
+    "driverName": "NOOR SHAH WALIYAT SHAHID",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e313e1632d018fd229e6"
+    },
+    "car2": {
+      "$oid": "6583e2f6e1632d018fd22984"
+    },
+    "car3": {
+      "$oid": "6583e314e1632d018fd229e8"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:22.903Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:22.903Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7af5eb07603a5e95cf2"
+    },
+    "sn": "18",
+    "driverCode": "0020452",
+    "driverName": "ISMAIL KHAN FAZAL MEHMOOD",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e320e1632d018fd22a14"
+    },
+    "car2": {
+      "$oid": "6583e31ee1632d018fd22a0c"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:23.459Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:23.459Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7af5eb07603a5e95cf4"
+    },
+    "sn": "19",
+    "driverCode": "0020456",
+    "driverName": "MUHAMMAD ALAM DAWOOD KHAN",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e30ce1632d018fd229cc"
+    },
+    "car2": {
+      "$oid": "6583e318e1632d018fd229f6"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:23.998Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:23.998Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b05eb07603a5e95cf6"
+    },
+    "sn": "20",
+    "driverCode": "0020457",
+    "driverName": "FAZAL MABOOD MOHSIN",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e30be1632d018fd229c6"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:24.583Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:24.583Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b15eb07603a5e95cf8"
+    },
+    "sn": "21",
+    "driverCode": "0020498",
+    "driverName": "ALAUDEEN HASAN JAAN",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e31ee1632d018fd22a0a"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:25.145Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:25.145Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b15eb07603a5e95cfa"
+    },
+    "sn": "22",
+    "driverCode": "0020555",
+    "driverName": "JAGSIR SINGH MEJOR SINGH",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e302e1632d018fd229aa"
+    },
+    "car2": {
+      "$oid": "6583e2fde1632d018fd2299a"
+    },
+    "car3": {
+      "$oid": "6583e308e1632d018fd229be"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:25.794Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:25.794Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b25eb07603a5e95cfc"
+    },
+    "sn": "23",
+    "driverCode": "0020561",
+    "driverName": "VIVEK KUMAR JOGINDER SINGH",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e313e1632d018fd229e4"
+    },
+    "car2": {
+      "$oid": "6583e2fce1632d018fd22996"
+    },
+    "car3": {
+      "$oid": "6583e323e1632d018fd22a1e"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:26.347Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:26.347Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b25eb07603a5e95cfe"
+    },
+    "sn": "24",
+    "driverCode": "0020631",
+    "driverName": "FAHAD BASHIR MUHAMMAD BASHIR",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e320e1632d018fd22a12"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:26.889Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:26.889Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b35eb07603a5e95d00"
+    },
+    "sn": "25",
+    "driverCode": "0020704",
+    "driverName": "IBAD ULLAH KHAN NAEEM KHAN",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T07:22:27.421Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:27.421Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b35eb07603a5e95d02"
+    },
+    "sn": "26",
+    "driverCode": "0020708",
+    "driverName": "MUHAMMAD BASHIR MUHAMMAD NAZIR",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e31be1632d018fd22a00"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:27.954Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:27.954Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b45eb07603a5e95d04"
+    },
+    "sn": "27",
+    "driverCode": "0020709",
+    "driverName": "SANDIP SINGH MANGAL SINGH",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e30be1632d018fd229c8"
+    },
+    "car2": {
+      "$oid": "6583e306e1632d018fd229b6"
+    },
+    "car3": {
+      "$oid": "6583e2fce1632d018fd22996"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:28.495Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:28.495Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b55eb07603a5e95d06"
+    },
+    "sn": "28",
+    "driverCode": "0020713",
+    "driverName": "SALMAN ULLAH IHSAN ULLAH",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car2": {
+      "$oid": "6583e31be1632d018fd22a00"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:29.051Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:29.051Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b55eb07603a5e95d08"
+    },
+    "sn": "29",
+    "driverCode": "0020749",
+    "driverName": "ALTAF HUSSAIN MUHAMMAD ALI",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e302e1632d018fd229ac"
+    },
+    "car2": {
+      "$oid": "6583e302e1632d018fd229aa"
+    },
+    "car3": {
+      "$oid": "6583e319e1632d018fd229f8"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:29.594Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:29.594Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b65eb07603a5e95d0a"
+    },
+    "sn": "30",
+    "driverCode": "0020750",
+    "driverName": "MUHAMMAD ATIF ABDUL KHALIQ",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e308e1632d018fd229bc"
+    },
+    "car2": {
+      "$oid": "6583e308e1632d018fd229be"
+    },
+    "car3": {
+      "$oid": "6583e306e1632d018fd229b6"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:30.124Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:30.124Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b65eb07603a5e95d0c"
+    },
+    "sn": "31",
+    "driverCode": "0020758",
+    "driverName": "QASIM NASERALDIN SAYMOUHA",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e316e1632d018fd229ee"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:30.679Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:30.679Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b75eb07603a5e95d0e"
+    },
+    "sn": "32",
+    "driverCode": "0020761",
+    "driverName": "NAEEM JAN MUHIB JAN",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e308e1632d018fd229be"
+    },
+    "car2": {
+      "$oid": "6583e30fe1632d018fd229d8"
+    },
+    "car3": {
+      "$oid": "6583e2fde1632d018fd2299a"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:31.213Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:31.213Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b75eb07603a5e95d10"
+    },
+    "sn": "33",
+    "driverCode": "0020764",
+    "driverName": "GUL DAD KHAN JALANDAR KHAN.",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e31fe1632d018fd22a0e"
+    },
+    "car2": {
+      "$oid": "6583e314e1632d018fd229e8"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:31.758Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:31.758Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b85eb07603a5e95d12"
+    },
+    "sn": "34",
+    "driverCode": "0020783",
+    "driverName": "KHAN BACHA RAHAM BACHA.",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e315e1632d018fd229ea"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:32.339Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:32.339Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b85eb07603a5e95d14"
+    },
+    "sn": "35",
+    "driverCode": "0020851",
+    "driverName": "SANA ULLAH MUHAMMAD SADIQ.",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T07:22:32.867Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:32.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b95eb07603a5e95d16"
+    },
+    "sn": "36",
+    "driverCode": "0020855",
+    "driverName": "KHAISTA ZAMAN RAHMAN SADIQ",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T07:22:33.413Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:33.413Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7b95eb07603a5e95d18"
+    },
+    "sn": "37",
+    "driverCode": "0020856",
+    "driverName": "SHIV LAL BALRAM",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T07:22:33.940Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:33.940Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7ba5eb07603a5e95d1a"
+    },
+    "sn": "38",
+    "driverCode": "0020857",
+    "driverName": "ROOH UL AMIN SAID SALAH UD DIN",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T07:22:34.511Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:34.511Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7bb5eb07603a5e95d1c"
+    },
+    "sn": "39",
+    "driverCode": "0020863",
+    "driverName": "DAVINDER SINGH GURBAX SINGH",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T07:22:35.038Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:35.038Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7bb5eb07603a5e95d1e"
+    },
+    "sn": "40",
+    "driverCode": "0020867",
+    "driverName": "YASIR AMIN NIAMAT KHAN",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T07:22:35.680Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:35.680Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7bc5eb07603a5e95d20"
+    },
+    "sn": "41",
+    "driverCode": "0020875",
+    "driverName": "SUKHWINDER SINGH CHANNE BALWANT SINGH",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T07:22:36.327Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:36.327Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7bc5eb07603a5e95d22"
+    },
+    "sn": "42",
+    "driverCode": "0020876",
+    "driverName": "RAJPREET SINGH GURMUKH SINGH",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T07:22:36.876Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:36.876Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7bd5eb07603a5e95d24"
+    },
+    "sn": "43",
+    "driverCode": "0020879",
+    "driverName": "DEEPAK RAKESH KUMAR",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "createdAt": {
+      "$date": "2023-12-21T07:22:37.406Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:37.406Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7bd5eb07603a5e95d26"
+    },
+    "sn": "44",
+    "driverCode": "0030913",
+    "driverName": "FARMAN ULLAH IHSAN ULLAH",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car3": {
+      "$oid": "6583e300e1632d018fd229a4"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:37.931Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:37.931Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7be5eb07603a5e95d28"
+    },
+    "sn": "45",
+    "driverCode": "0030998",
+    "driverName": "KHAN NAWAZ KHAISTA MIR",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e30ce1632d018fd229ca"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:38.480Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:38.480Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7bf5eb07603a5e95d2a"
+    },
+    "sn": "46",
+    "driverCode": "0031295",
+    "driverName": "ATTA ULLAH KHAN RAHIM KHAN",
+    "licenseType": "HEAVY+LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e2f6e1632d018fd22984"
+    },
+    "car2": {
+      "$oid": "6583e2fbe1632d018fd22992"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:39.026Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:39.026Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7bf5eb07603a5e95d2c"
+    },
+    "sn": "47",
+    "driverCode": "0032914",
+    "driverName": "HASHMAT ALI SHAH SYED GUL MUHAMMAD SHAH",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e30fe1632d018fd229d8"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:39.591Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:39.591Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7c05eb07603a5e95d2e"
+    },
+    "sn": "48",
+    "driverCode": "0034768",
+    "driverName": "IHSAN ALI ABDUR RAUF",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e318e1632d018fd229f6"
+    },
+    "car2": {
+      "$oid": "6583e30ce1632d018fd229cc"
+    },
+    "car3": {
+      "$oid": "6583e321e1632d018fd22a18"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:40.113Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:40.113Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7c05eb07603a5e95d30"
+    },
+    "sn": "49",
+    "driverCode": "0034784",
+    "driverName": "MANDEEP SINGH RAM PRAKASH",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e30ee1632d018fd229d4"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:40.639Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:40.639Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583e7c15eb07603a5e95d32"
+    },
+    "sn": "50",
+    "driverCode": "0035074",
+    "driverName": "FIAZ MIRAN BASHIR AHMED",
+    "licenseType": "LIGHT LICENCE",
+    "driverWorkability": 2,
+    "driverAvailability": "Available",
+    "car1": {
+      "$oid": "6583e306e1632d018fd229b6"
+    },
+    "createdAt": {
+      "$date": "2023-12-21T07:22:41.189Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-21T07:22:41.189Z"
+    },
+    "__v": 0
+  }]

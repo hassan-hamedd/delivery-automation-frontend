@@ -23,7 +23,7 @@ import { createCustomEqual } from 'fast-equals'
 import { isLatLngLiteral } from '@googlemaps/typescript-guards'
 import TransferList from './TransferList'
 import locationData from './locationData.js'; 
-import driverData from './driverData.js'; 
+import driversJson from './drivers.json';
 import items from './DB/items.json';
 import {
     Button,
@@ -104,6 +104,9 @@ const Asssignment: React.VFC = () => {
 
     const [driversData, setDriversData] = React.useState<any>([]);
     const [vehiclesData, setVehiclesData] = React.useState<any>([]);
+
+    const driverData = driversJson;
+    console.log("Drivers from JSON FILE", driverData);
 
     React.useEffect(() => {
         const getDeliveryData = async () => {
@@ -290,11 +293,15 @@ const Asssignment: React.VFC = () => {
     const maxWeight = 10000;
 
     function getBestVehicles(invoice) {
-        if(invoice === undefined) return;
+        if(invoice === undefined) {
+            console.log("This has returned");
+            return
+        };
+        console.log("Continued algrotihm")
         let bestVehicles = [];
         let vehiclesInCity = [];
     
-        const address = invoice.deliveryAddress;
+        const address = invoice.deliveryAddress.length === 0 ? invoice.customerName : invoice.deliveryAddress;
         // console.log(address);
     
         const fliteredLocations = locationData.filter(location => {
