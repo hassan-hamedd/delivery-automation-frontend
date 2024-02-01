@@ -1,5 +1,6 @@
 import React, { lazy } from 'react'
 import Loadable from 'src/app/components/Loadable/Loadable'
+import DeliveryComponent from './DeliveryMapComponent.jsx'
 
 const Maps2 = Loadable(lazy(() => import('./map.tsx')))
 const Maps = Loadable(lazy(() => import('./RenderMap.js')))
@@ -11,7 +12,7 @@ const mapRoutes = [
     },
     {
         path: '/',
-        element: <Maps2 />,
+        element: <DeliveryComponent />,
     },
 ]
 
